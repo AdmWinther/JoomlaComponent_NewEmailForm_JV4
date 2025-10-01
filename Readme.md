@@ -1,7 +1,7 @@
 <h2>1. Joomla Components</h2>
 The structure of a simple Joomla component is as follows:
-```
-com_mycomponent/
+
+```com_mycomponent/
 │
 ├── admin/                      # Backend (administrator) files
 │   ├── services/                   # Services
@@ -15,10 +15,7 @@ com_mycomponent/
 │   └── tmpl/
 │       └── yourviewname/
 │           └── default.php
-└── mycomponent.xml          # Manifest (tells Joomla what’s here)
-
-
-```
+└── mycomponent.xml          # Manifest (tells Joomla what’s here)```
 
 Attention:
 1. The component name must start with "com_".
