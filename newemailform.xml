@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
+    <name>New Email Form</name>
+    <title>New Email Form</title>
+    <author>Adam Winther</author>
+    <version>1.0.0</version>
+    <creationDate>2025-10-01</creationDate>
+    <description>A Joomla component for creating new email</description>
+
+    <namespace path="src/">Thusia\Component\NewEmailForm</namespace>
+
+    <!-- Backend (admin) files -->
+    <administration>
+        <menu link="index.php?option=com_newemailform">New Email Form</menu>
+        <files folder="admin/">
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+    </administration>
+
+    <!-- Frontend (site) files -->
+    <files folder="site/">
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
+
+</extension>
