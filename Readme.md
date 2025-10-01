@@ -30,8 +30,8 @@ Attention:
 
 <h2> 2. Joomla component with Site<h2>
 Now, if the component includes a front side, it would look like this:
-```
-com_mycomponent/
+
+```com_mycomponent/
 │
 ├── admin/                      # Backend (administrator) files
 │   ├── services/                   # Services
@@ -56,8 +56,7 @@ com_mycomponent/
 │       └── yourviewname/
 │           ├── default.xml
 │           └── default.php
-└── mycomponent.xml          # Manifest (tells Joomla what’s here)
-```
+└── mycomponent.xml          # Manifest (tells Joomla what’s here)```
 
 The content of "site" folder follow the same as "admin" folder but:
 1. There is no need for /services/provider.php
